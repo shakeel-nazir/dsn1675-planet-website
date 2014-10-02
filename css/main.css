@@ -27,8 +27,8 @@ body {
 }
 
 img {
-  display: block;
-  width: 100%;
+   margin: auto;
+   max-width: 100%;
 }
 
 h1 { 
@@ -83,7 +83,6 @@ figure {
   position: relative;
 
 }
-
 @media only screen and (min-width: 25em) {
     
 .nav li {
