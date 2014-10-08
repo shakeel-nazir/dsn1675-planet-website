@@ -17,14 +17,8 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2rem;
-  line-height: 2;
-letter-spacing: .1rem;
-    font-family: sans-serif;
-    background: rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #39393A;
-    font-weight: 100;
+  font-size: 2.2807rem;
+  line-height: 1.3154;
 }
 
 .zetta {
