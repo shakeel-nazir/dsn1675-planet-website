@@ -1,23 +1,45 @@
 @-moz-viewport { width: device-width; scale: 1; }
+
 @-ms-viewport { width: device-width; scale: 1; }
+
 @-o-viewport { width: device-width; scale: 1; }
+
 @-webkit-viewport { width: device-width; scale: 1; }
+
 @viewport { width: device-width; scale: 1; }
 
 html {
     box-sizing: border-box;
- 
+}
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+    font-size:110%; 
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+    font-size:110%; 
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+    font-size:120%; 
+    }
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-
 }
 
 header {
     background-color: #ccc;
     overflow: hidden;
-
 }
 
 .intro { 
@@ -28,7 +50,6 @@ header {
 body {
     padding: 0;
     margin: 0;
-
 }
 
 img {
@@ -44,7 +65,7 @@ h1 {
  
 h2 {
     font-family: sans-serif;
- }
+}
 
 
 .grid h1 {
@@ -83,15 +104,17 @@ figcaption{
     max-width: 100%;
 }
 
+.lightgray {
+    background-color: lightgray;
+}
+
 figure {
   position: relative;
-
 }
 
 .chart { 
     background-color:#CFCFCF;
 }
-
 
 footer { 
 background-color:#B8B8B8; 
@@ -101,28 +124,88 @@ background-color:#B8B8B8;
    background-color:#E6E6E6;
 }
 
-@media only screen and (min-width: 25em) {
-.nav {
-    text-align: center;
+span{
+    display:none;
 }
-.nav li {
-   display: inline-block;
-   border: 0;
+
+@media only screen and (min-width: 22em) {
+
+    .nav {
+        text-align: center;
 }
+
+    .nav li {
+        display: inline-block;
+        border: 0;
+}
+    
+    span {
+        display:inline;
+}
+    .copy {
+        text-align: center;
+    }
+    
+    .fake {
+        margin-left: 1%;
+    }
     
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 50em) {
     
     h1 { 
-    float: left;
+        float: left;
 }
+        
     .nav {
-    float: left;
-}
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    
+    
+    .fake {
+        margin-left: 3%;
+    }
 
+    .copy {
+        text-align:left;
+    }
+    
 }    
 
+
+@media only screen and (min-width: 60em) {
+    
+    .nav {
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    
+    dl{
+        overflow: hidden;
+    }
+    
+    dt{ 
+        float: left;
+        width: 50%;
+    }
+    
+    dd{
+        float: left;
+        width: 50%;
+    }
+    
+    .fake {
+       margin-left:3%;
+        
+    }
+    .copy {
+        text-align: left;
+    }
+}    
     
     
     
