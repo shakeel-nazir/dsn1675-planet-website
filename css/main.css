@@ -35,36 +35,36 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
+    }
 
 header {
     background-color: #ccc;
     overflow: hidden;
-}
+    }
 
 .intro { 
     background: #E6E6E6;
     text-align: center;
-}
+    }
 
 body {
     padding: 0;
     margin: 0;  
-}
+    }
 
 a:focus{
     outline: 3px solid #000;
-}
+    }
 
 .top { 
     padding-bottom: 5%;
-}
+    }
 
 .skip-links {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
+    }
 
 .skip-links a {
     position: absolute;
@@ -74,16 +74,16 @@ a:focus{
     text-decoration: none;
     padding: 0.5em 0.75em;
     font-size: 1.24em;
-}
+    }
 
 .skip-links a:focus {
     top: 0;
-}
+    }
 
 img {
    margin: auto;
    max-width: 100%;
-}
+    }
 
 h1 { 
     padding-right:0;
@@ -91,110 +91,110 @@ h1 {
     font-family: sans-serif;
     padding-top:1.8%;
     text-align: center;
-}
+    }
  
 h2 {
     font-family: sans-serif;
-}
+    }
 
 .grid h1 {
     padding: 0;
     margin-top:6%;
     margin-left: 0;
-}
+    }
 
 .nav {
     padding:0%;
     list-style-type: none;
     font-family: sans-serif; 
-}
+    }
 
 .nav a,
 .nav a:visited{
     text-decoration:none;
     color: #0074D9;
-}
+    }
 
 .navtop {
     padding-top: 1%;
     list-style-type: none;
     font-family: sans-serif; 
-}
+    }
 
 .navtop a,
 .navtop a:visited{
     text-decoration:none;
     color: #0074D9;
-}
+    }
 
 figcaption{
     display: inline-block;
     font-family:sans-serif;
     line-height:1em;
-}
+    }
 
 .texted{ 
     font-family:sans-serif;
     line-height:1.5em;
     padding: 0;
     margin: 0;
-}
+    }
 
 .billboard{
     margin: auto;
     max-width: 100%;
-}
+    }
 
 .lightgray {
     background-color: lightgray;
-}
+    }
 
 figure {
   position: relative;
-}
+    }
 
 .chart { 
     background-color:#CFCFCF;
-}
+    }
 
 footer { 
 background-color:#B8B8B8; 
-}
+    }
 
 .picture {
    background-color:#E6E6E6;
-}
+    }
 
 span{
     display:none;
-}
+    }
 
 
 @media only screen and (min-width: 22em) {
 
     .nav {
         text-align: center;
-}
+    }
 
     .nav li {
         display: inline-block;
         border: 0;
-}
+    }
 
     .navtop {
         text-align: center;
-}
+    }
 
     .navtop li {
         display: inline-block;
         border: 0;
-}
+    }
  
 .top { 
     padding-top: 1%;
     padding-right: 5%;
     padding-bottom: 0;
-}
+    }
    
     h1 {
         text-align: center;
@@ -202,7 +202,7 @@ span{
     
     span {
         display:inline;
-}
+    }
     
     .copy {
         text-align: center;
@@ -227,10 +227,10 @@ span{
     }
     
 .top { 
-    padding-top: 1%;
-    padding-right: 5%;
-    padding-bottom: 0;
-}
+        padding-top: 1%;
+        padding-right: 5%;
+        padding-bottom: 0;
+    }
     
     .fake {
         margin-left: 3%;
@@ -276,10 +276,10 @@ span{
     
     
 .top { 
-    padding-top: 1%;
-    padding-right: 5%;
-    padding-bottom: 0;
-}
+        padding-top: 1%;
+        padding-right: 5%;
+        padding-bottom: 0;
+    }
    
     
     .fake {
