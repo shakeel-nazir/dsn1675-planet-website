@@ -9,8 +9,9 @@
 
 @viewport { width: device-width; scale: 1; }
 
-html {
-  font: normal 100%/1.5 Georgia,serif;
+html,
+.info-typography{
+  font: normal 100%/1.5 "Merriweather", serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -65,14 +66,12 @@ h6, .kilo {
 small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875;
- font-family: sans-serif;
     
 }
 
 .micro {
   font-size: 0.7901rem;
   line-height: 1.8984;
- font-family: sans-serif;
 }
 
 sub,
@@ -156,4 +155,9 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1,h2,h3,h4,h5,h6,
+.brand-family{ 
+    font-family: "Open Sans", sans-serif;
 }

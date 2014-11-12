@@ -35,15 +35,15 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-    }
-
-header {
-    background-color: #ccc;
-    overflow: hidden;
 }
 
+header {
+    background-color: #FFEDDB;
+    overflow: hidden;
+}
+    
 .intro { 
-    background: #E6E6E6;
+    background: #FF9966;
     text-align: center;
 }
 
@@ -52,8 +52,20 @@ body {
     margin: 0;  
 }
 
-a:focus{
+.white { 
+    color: white;
+}
+
+.black { 
+    color: black;
+}
+
+a:focus {
     outline: 3px solid #000;
+}
+
+dl {
+    color: white;
 }
 
 .top { 
@@ -76,8 +88,8 @@ a:focus{
     font-size: 1.24em;
 }
 
-p { 
-    font-family: sans-serif;
+h2 {
+    color: white;
 }
 
 .skip-links a:focus {
@@ -86,23 +98,27 @@ p {
 
 img {
    margin: auto;
-   max-width: 100%;
+   width: 100%;
 }
 
 h1 { 
     padding-right:0;
     margin-left:35%;
-    font-family: sans-serif;
     padding-top:1.8%;
     text-align: center;
+    color: #FF9966;
 }
- 
-h2 {
-    font-family: sans-serif;
+
+.copy { 
+    color: #FF9966;
 }
 
 .send { 
     text-align:center;
+}
+
+.interested {
+    color: white;
 }
 
 .grid h1 {
@@ -114,13 +130,49 @@ h2 {
 .nav {
     padding:0%;
     list-style-type: none;
-    font-family: sans-serif; 
 }
 
 .nav a,
-.nav a:visited{
+.nav a:link,
+.nav a:visited {
+    display: block;
     text-decoration:none;
-    color: #0074D9;
+    color: #FF9966;
+}
+
+.nav a:hover, 
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited{ 
+    background: #FF9966;
+    color:#fff;
+}
+
+.navtop {
+    padding:0%;
+    list-style-type: none;
+}
+
+.navtop a,
+.navtop a:link,
+.navtop a:visited {
+    display: block;
+    text-decoration:none;
+    color: #FF9966;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.navtop a:hover, 
+.navtop a:focus,
+.navtop a:active,
+.navtop .navtop-current:link,
+.navtop .navtop-current:visited{ 
+    background: #FF9966;
+    color:#fff; 
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 textarea { 
@@ -130,38 +182,24 @@ textarea {
     border-style: none;
 }
 
-.navtop {
-    padding-top: 1%;
-    list-style-type: none;
-    font-family: sans-serif; 
-}
-
-.navtop a,
-.navtop a:visited{
-    text-decoration:none;
-    color: #0074D9;
-}
-
 figcaption{
     display: inline-block;
-    font-family:sans-serif;
     line-height:1em;
 }
 
 .texted{ 
-    font-family:sans-serif;
     line-height:1.5em;
     padding: 0;
     margin: 0;
 }
 
-.billboard{
+.billboard {
     margin: auto;
     max-width: 100%;
 }
 
-.lightgray {
-    background-color: lightgray;
+.orange {
+    background-color: #FF9966;
 }
 
 figure {
@@ -169,15 +207,11 @@ figure {
 }
 
 .chart { 
-    background-color:#CFCFCF;
+    background-color:#FF9966;
 }
 
 footer { 
-    background-color:#B8B8B8; 
-}
-
-.picture {
-   background-color:#E6E6E6;
+    background-color:#FFEDDB; 
 }
 
 span {
@@ -188,21 +222,21 @@ span {
     display:none;
 }
 
-
 .level { 
     text-align: left;
     padding: 0;
     margin: 0;
     padding-top: 1rem;
+    color: white;
 }
 
 label { 
     display: block;
-    font-family: sans-serif;
+    color: white;
 }
 
 form { 
-    background-color: #e2e2e2;
+    background-color: #FF9966;
     padding: 8%;
 }
 
@@ -217,7 +251,6 @@ form p {
 
 input { 
     font-size: 1.125em;
-    font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -245,10 +278,9 @@ button {
     padding-left: .5rem;
     margin-top:1rem;
     margin-bottom: 1rem;
-    font-family: sans-serif;
     font-size: 1.5em;
+    background-color: #FFEDDB;
 }
-
 
 input + label { 
     display: inline-block;
@@ -276,10 +308,9 @@ input + label {
     }
     
     .footerspan {
-    display:inline-block;
-}
+        display:inline-block;
+    }
 
- 
     .top { 
         padding-top: 1%;
         padding-right: 5%;
@@ -294,7 +325,7 @@ input + label {
         text-align: center;
     }
     
-     .radio{ 
+     .radio { 
         display: inline-block;
     }
     
@@ -323,10 +354,9 @@ input + label {
     }
     
     .footerspan {
-    display:inline-block;
-}
+        display:inline-block;
+    }
 
-    
     .fake {
         margin-left: 3%;
     }
@@ -363,8 +393,8 @@ input + label {
     }
     
     .footerspan {
-    display:inline-block;
-}
+        display:inline-block;
+    }
 
     
     dd {
